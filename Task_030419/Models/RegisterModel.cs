@@ -6,6 +6,7 @@ using System.Web;
 
 namespace Task_030419.Models
 {
+    [Serializable]
     public class RegisterModel
     {
         [Required]
