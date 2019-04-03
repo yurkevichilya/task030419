@@ -14,5 +14,29 @@ namespace Task_030419.Controllers
 
             return View();
         }
+        public ActionResult News()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult AboutUZ()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult LogIn()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult Registration()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }
